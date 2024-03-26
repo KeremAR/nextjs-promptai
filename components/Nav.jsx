@@ -71,7 +71,7 @@ const Nav = () => {
 
         </div>
         {/*Mobile Navigation*/}
-        <div className='sm-hidden flex relative'>
+        <div className='sm:hidden flex relative'>
             {isUserLoggedIn ? (
                 <div className='flex'>
                      <Image 
