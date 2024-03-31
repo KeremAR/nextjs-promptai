@@ -6,7 +6,7 @@ import { Suspense } from 'react'
 
 export const metadata = {
 
-    title: "Promptopia",
+    title: "PromptAI",
     description : 'Discover & share ai prompts'
 }
 
