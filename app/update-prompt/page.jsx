@@ -3,7 +3,6 @@
 import {useState, useEffect} from 'react'
 import {useRouter, useSearchParams} from 'next/navigation'
 import Form from '@components/Form'
-import { get } from 'mongoose';
 
 const EditPrompt = () => {
     const router = useRouter()
@@ -36,8 +35,7 @@ const EditPrompt = () => {
         if(!promptId) return alert('prompt id not found')
         
     try{
-        const response = await fetch('/api/prompt/{promptId}', 
-
+        const response = await fetch(`/api/prompt/${promptId}`, 
         {
             method: 'PATCH',
             body: JSON.stringify({
