@@ -30,7 +30,7 @@ const Nav = () => {
             className='object-contain'
             
             />
-            <p className='logo_text'> Promptopia</p>
+            <p className='logo_text'> PromptAI</p>
         </Link>
         {/* Desktop Navigation*/}
         <div className='sm:flex hidden'>
