@@ -53,8 +53,6 @@ const UpdatePrompt = () => {
   };
 
   return (
-    <Suspense fallback={<div>Loading...</div>}>
-      {/* Suspense wraps the content that might suspend */}
       <Form
         type='Edit'
         post={post}
@@ -62,7 +60,6 @@ const UpdatePrompt = () => {
         submitting={submitting}
         handleSubmit={updatePrompt}
       />
-    </Suspense>
   );
 };
 
